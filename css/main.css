@@ -8,6 +8,7 @@
     --dark-bg: #0A1019;
     --nav-light-blue: #1D2E47C4;
     --nav-dark-blue: #090D15D9;
+    --banner-bg: rgba(0, 0, 0, .75);
 }
 
 body {
@@ -30,7 +31,7 @@ header {
 }
 
 .banner-bg {
-    background-color: rgba(0, 0, 0, .75);
+    background-color: var(--banner-bg);
 }
 
 /* web developer / designer title */
@@ -63,7 +64,7 @@ img {
 }
 
 .btn:hover {
-    background-color: var(--main-blue) !important;
+    background-color: var(--dark-bg) !important;
 }
 
 .card {
@@ -95,6 +96,16 @@ img {
     border-radius: var(--rounded-corners);
 }
 
+/* Contact form styles */
+#contact {
+    background-image: url(../images/banner-img.jpg);
+    background-size: cover;
+}
+
+.form-bg {
+    background-color: var(--banner-bg);
+}
+
 
 /* Styles footer */
 footer {
@@ -115,16 +126,20 @@ footer i {
 }
 
 .nav-contact {
-    background-color: var(--nav-light-blue);
+    background-color: var(--nav-dark-blue);
 }
 
+/* tablet screens */
 @media screen and (min-width: 768px) {
     /* darker nav bg than desktop */
     nav {
         background-color: var(--nav-dark-blue);
     }
+
+
 }
 
+/* desktop screens */
 @media screen and (min-width: 992px) {
     nav {
         background-color: #1D2E47C4;

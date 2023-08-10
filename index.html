@@ -48,7 +48,7 @@
                         <a href="#" class="nav-link">Works</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
+                        <a href="info.html" class="nav-link">Info</a>
                     </li>
                 </ul>
             </div>
@@ -65,74 +65,76 @@
         </div>
     </header>
     <main>
-        <div class="container ft-projects">
-            <h2 class="h2 text-light">Featured Projects</h2>
-            <!-- featured project cards -->
-            <div class="row gy-4">
-                <!-- bukka app card -->
-                <a class="projects card col-md-6 col-sm-11 text-decoration-none text-light mx-auto" href="#" aria-label="open project page">
-                    <picture>
-                        <source media="(min-width:768px)" srcset="images/bukka-lg.png">
-                        <source media="(min-width:576px)" srcset="images/bukka-md.png">
-                        <source media="(min-width:100px)" srcset="images/bukka-sm.png">
-                        <!-- aria-labelledby specifies which element is a label for the image -->
-                        <img src="images/bukka.png" alt="mobile website for a catering business" class="card-img" aria-labelledby="bukka">
-                    </picture>
-                    <!-- projects description -->
-                    <div class="card-body">
-                        <!-- h3 with id of bukka is linked to the image -->
-                        <h3 class="card-title h3" id="bukka">BukkaPlate Branding and App</h3>
-                        <p class="card-text">Branding and web design for a fictional company. Includes a branding guide, wireframes, an interactive prototype made with Adobe XD, and a prototype made with HTML & CSS.</p>
+        <section id="projects" class="p-5">
+            <div class="container ft-projects">
+                <h2 class="h2 text-light">Featured Projects</h2>
+                <!-- featured project cards -->
+                <div class="row gy-4">
+                    <!-- bukka app card -->
+                    <a class="projects card col-md-6 col-sm-11 text-decoration-none text-light mx-auto" href="#" aria-label="open project page">
+                        <picture>
+                            <source media="(min-width:768px)" srcset="images/bukka-lg.png">
+                            <source media="(min-width:576px)" srcset="images/bukka-md.png">
+                            <source media="(min-width:100px)" srcset="images/bukka-sm.png">
+                            <!-- aria-labelledby specifies which element is a label for the image -->
+                            <img src="images/bukka.png" alt="mobile website for a catering business" class="card-img" aria-labelledby="bukka">
+                        </picture>
+                        <!-- projects description -->
+                        <div class="card-body">
+                            <!-- h3 with id of bukka is linked to the image -->
+                            <h3 class="card-title h3" id="bukka">BukkaPlate Branding and App</h3>
+                            <p class="card-text">Branding and web design for a fictional company. Includes a branding guide, wireframes, an interactive prototype made with Adobe XD, and a prototype made with HTML & CSS.</p>
 
-                        <!-- skills used badges -->
-                        <span class="badge rounded-pill text-bg-primary">HTML</span>
-                        <span class="badge rounded-pill text-bg-primary">CSS</span>
-                        <span class="badge rounded-pill text-bg-primary"> Adobe Illustrator</span>
-                        <span class="badge rounded-pill text-bg-primary">Adobe XD</span>
-                    </div>
-                </a>
+                            <!-- skills used badges -->
+                            <span class="badge rounded-pill text-bg-primary">HTML</span>
+                            <span class="badge rounded-pill text-bg-primary">CSS</span>
+                            <span class="badge rounded-pill text-bg-primary"> Adobe Illustrator</span>
+                            <span class="badge rounded-pill text-bg-primary">Adobe XD</span>
+                        </div>
+                    </a>
 
-                <!-- movie poster card -->
-                <a class="projects card col-sm-11 col-md-6 text-decoration-none text-light mx-auto" href="#" aria-label="open project page">
-                    <picture>
-                        <source media="(min-width:768px)" srcset="images/poster-lg.png">
-                        <source media="(min-width:576px)" srcset="images/poster-md.png">
-                        <source media="(min-width:100px)" srcset="images/poster-sm.png">
-                        <img src="images/poster.png" alt="a horror movie poster" class="card-img" aria-labelledby="avatar">
-                    </picture>
-                    <!-- projects description -->
-                    <div class="card-body">
-                        <h3 class="card-title h3" id="avatar">Movie Poster w/ Photoshop</h3>
-                        <p class="card-text">A spooky movie poster for a horror movie idea I developed. Made using Adobe Photoshop.</p>
+                    <!-- movie poster card -->
+                    <a class="projects card col-sm-11 col-md-6 text-decoration-none text-light mx-auto" href="#" aria-label="open project page">
+                        <picture>
+                            <source media="(min-width:768px)" srcset="images/poster-lg.png">
+                            <source media="(min-width:576px)" srcset="images/poster-md.png">
+                            <source media="(min-width:100px)" srcset="images/poster-sm.png">
+                            <img src="images/poster.png" alt="a horror movie poster" class="card-img" aria-labelledby="avatar">
+                        </picture>
+                        <!-- projects description -->
+                        <div class="card-body">
+                            <h3 class="card-title h3" id="avatar">Movie Poster w/ Photoshop</h3>
+                            <p class="card-text">A spooky movie poster for a horror movie idea I developed. Made using Adobe Photoshop.</p>
 
-                        <!-- skills used badges -->
-                        <span class="badge rounded-pill text-bg-primary">Adobe Photoshop</span>
-                        <span class="badge rounded-pill text-bg-primary">Lightroom</span>
-                    </div>
-                </a>
+                            <!-- skills used badges -->
+                            <span class="badge rounded-pill text-bg-primary">Adobe Photoshop</span>
+                            <span class="badge rounded-pill text-bg-primary">Lightroom</span>
+                        </div>
+                    </a>
 
-                <!-- avatar icon card -->
-                <a class="projects card col-sm-11 col-md-6 text-decoration-none text-light" href="#" aria-label="open project page">
-                    <picture>
-                        <source media="(min-width:768px)" srcset="images/avatar-lg.png">
-                        <source media="(min-width:576px)" srcset="images/avatar-md.png">
-                        <source media="(min-width:100px)" srcset="images/avatar-sm.png">
-                        <img src="images/avatar.png" alt="an avatar icon of a giraffe listening to music in a subway" class="card-img" aria-labelledby="closer">
-                    </picture>
-                    <!-- projects description -->
-                    <div class="card-body">
-                        <h3 class="card-title h3" id="closer">Avatar Icon set for Apple</h3>
-                        <p class="card-text">A set of avatar icons in all three Apple dimensions (iPhone, iPad, iTunes). Made with Adobe Illustrator.</p>
+                    <!-- avatar icon card -->
+                    <a class="projects card col-sm-11 col-md-6 text-decoration-none text-light" href="#" aria-label="open project page">
+                        <picture>
+                            <source media="(min-width:768px)" srcset="images/avatar-lg.png">
+                            <source media="(min-width:576px)" srcset="images/avatar-md.png">
+                            <source media="(min-width:100px)" srcset="images/avatar-sm.png">
+                            <img src="images/avatar.png" alt="an avatar icon of a giraffe listening to music in a subway" class="card-img" aria-labelledby="closer">
+                        </picture>
+                        <!-- projects description -->
+                        <div class="card-body">
+                            <h3 class="card-title h3" id="closer">Avatar Icon set for Apple</h3>
+                            <p class="card-text">A set of avatar icons in all three Apple dimensions (iPhone, iPad, iTunes). Made with Adobe Illustrator.</p>
 
-                        <!-- skills used badges -->
-                        <span class="badge rounded-pill text-bg-primary">Adobe Illustrator</span>
-                    </div>
-                </a>
+                            <!-- skills used badges -->
+                            <span class="badge rounded-pill text-bg-primary">Adobe Illustrator</span>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <a href="#" class="btn btn-primary hvr-box-shadow-outset offset-10" role="button" aria-label="go to projects page">See More<i class="fa-solid fa-caret-right"></i></a>
-        </div>
+                <a href="#" class="btn btn-primary hvr-box-shadow-outset m-3" role="button" aria-label="go to projects page">See More<i class="fa-solid fa-caret-right"></i></a>
+        </section>
         <!-- skills section -->
-        <section id="skills" itemscope itemtype="https://schema.org/Person">
+        <section id="skills" itemscope itemtype="https://schema.org/Person" class="p-5">
             <h2 class="h2 text-light text-center">Skills</h2>
             <div class="container skills-columns">
                 <div class="row">
@@ -158,11 +160,10 @@
                         </ul>
                     </section>
                 </div>
-                <a href="#" class="btn btn-primary hvr-box-shadow-outset" role="button" aria-label="go to contact page">Contact Me<i class="fa-solid fa-caret-right"></i></a>
             </div>
+            <a href="info.html" class="btn btn-primary hvr-box-shadow-outset m-3" role="button" aria-label="go to contact form on info page">Contact Me<i class="fa-solid fa-caret-right"></i></a>
         </section>
     </main>
-
     <!-- footer section: nav menu, contact info, social links -->
     <footer class="p-2 pb-3">
         <div class="row">

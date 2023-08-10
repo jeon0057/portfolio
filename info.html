@@ -48,18 +48,52 @@
                         <a href="#" class="nav-link">Works</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link active">Contact</a>
+                        <a href="info.html" class="nav-link active">Info</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <header class="text-light pt-lg-5 pb-lg-5">
-        
+        <!-- contact form section -->
+        <section id="contact" class="text-light">
+            <div class="container-fluid form-bg col-lg-7">
+                <div class="form-grid d-grid pt-4">
+                    <div class="form-content container py-5">
+                        <h1>Contact Me</h1>
+                        <form action="#" method="get" id="contact-form">
+                            <label for="email" class="form-label">Email*</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                            <label for="f-name" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="f-name" name="fname">
+                            <label for="l-name" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="l-name" name="lname">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="message" id="message" class="form-control mb-3"></textarea>
+                            <button type="submit" form="contact-form" class="btn btn-primary hvr-box-shadow-outset">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
-
+        <!-- about blurb -->
+        <div class="container d-flex text-light align-items-center py-5">
+            <picture>
+                <source media="(min-width:768px)" srcset="images/pfp-lg.png">
+                <source media="(min-width:576px)" srcset="images/pfp-md.png">
+                <source media="(min-width:100px)" srcset="images/pfp-sm.png">
+                <img src="images/pfp.png" alt="Hayoung Jeong smiling in black and white" class="profile-pic">
+            </picture>
+            <div class="about-txt col-8 px-3">
+                <p class="my-title mb-0">Web Developer / Designer</p>
+                <h2>Hayoung Jeong</h2>
+                <p>I am an Interactive Media Design student at Algonquin College, currently living in Ottawa. I was born in Seoul, South Korea, on the 24th of January, 2001. When I was three years old my family and I moved to Canada. Some of my favourite pastimes are solving puzzles, drawing, and listening to music. When it comes to music, I tend to listen to any song that I find touching or catchy in a variety of genres, depending on my mood. One sad fact about me is that I love cats but am allergic to them.</p>
+            </div>
+        </div>
     </main>
+    <!-- footer section -->
     <footer class="p-2 pb-3">
         <div class="row">
             <div class="footer-nav col-4">

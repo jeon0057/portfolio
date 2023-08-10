@@ -11,11 +11,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
     <!-- hover.css hover animation libary -->
-    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link href="css/hover-min.css" rel="stylesheet" media="all">
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     
     <!-- icons & fonts -->
     <script src="https://kit.fontawesome.com/bbcd28ecea.js" crossorigin="anonymous"></script>
@@ -130,11 +129,41 @@
                     </div>
                 </a>
             </div>
-            <a href="#" class="btn btn-primary hvr-box-shadow-outset  animate__animated animate__slideInRight" role="button" aria-label="go to projects page">See More<i class="fa-solid fa-caret-right"></i></a>
+            <a href="#" class="btn btn-primary hvr-box-shadow-outset offset-10" role="button" aria-label="go to projects page">See More<i class="fa-solid fa-caret-right"></i></a>
         </div>
-        <div class="container skills-section">
-
-        </div>
+        <!-- skills section -->
+        <section id="skills" itemscope itemtype="https://schema.org/Person">
+            <h2 class="h2 text-light text-center">Skills</h2>
+            <div class="container skills-columns">
+                <div class="row">
+                    <section class="col-6 text-center web-skills">
+                        <h3 class="text-light">Web Development</h3>
+                        <ul class="skills-list fw-semibold">
+                            <li itemprop="knowsAbout">HTML</li>
+                            <li itemprop="knowsAbout">CSS</li>
+                            <li itemprop="knowsAbout">Bootstrap</li>
+                            <li itemprop="knowsAbout">Wordpress</li>
+                            <li itemprop="knowsAbout">Drupal</li>
+                        </ul>
+                    </section>
+                    <section class="col-6 text-center design-skills">
+                        <h3 class="text-light">Design</h3>
+                        <ul class="skills-list fw-semibold orange-text">
+                            <li itemprop="knowsAbout">InDesign</li>
+                            <li itemprop="knowsAbout">Illustrator</li>
+                            <li itemprop="knowsAbout">Photoshop</li>
+                            <li itemprop="knowsAbout">Lightroom Classic</li>
+                            <li itemprop="knowsAbout">Adobe XD</li>
+                            <li itemprop="knowsAbout">Premiere Pro</li>
+                        </ul>
+                    </section>
+                </div>
+                <a href="#" class="btn btn-primary hvr-box-shadow-outset" role="button" aria-label="go to contact page">Contact Me<i class="fa-solid fa-caret-right"></i></a>
+            </div>
+        </section>
     </main>
+    <footer >
+
+    </footer>
 </body>
 </html>

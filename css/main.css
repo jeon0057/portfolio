@@ -4,7 +4,7 @@
     --main-blue: #1D2E47;
     --bg-blue: #424A56;
     --btn-color: #ED8853;
-
+    --rounded-corners: 10px;
 }
 
 body {
@@ -55,10 +55,41 @@ img {
     background-color: var(--btn-color);
     color: var(--main-blue);
     font-weight: bold;
+    border: none !important;
+    border-radius: var(--rounded-corners);
 }
 
 .btn:hover {
     background-color: var(--main-blue) !important;
+}
+
+.card {
+    border-radius: var(--rounded-corners);
+}
+
+/* styles skills section */
+.skills-columns {
+    max-width: 600px;
+}
+
+.skills-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.web-skills {
+    background-color: var(--btn-color);
+    border-radius: var(--rounded-corners);
+}
+
+.orange-text {
+    color: var(--title-color);
+}
+
+
+.design-skills {
+    border: 1px solid var(--btn-color);
+    border-radius: var(--rounded-corners);
 }
 
 @media screen and (min-width: 768px) {

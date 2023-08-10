@@ -1,7 +1,14 @@
+/* css variables */
 :root {
     --title-color: #ED8853;
     --main-blue: #1D2E47;
     --bg-blue: #424A56;
+    --btn-color: #ED8853;
+
+}
+
+body {
+    background-color: var(--bg-blue);
 }
 
 button span {
@@ -26,6 +33,32 @@ header {
 /* web developer / designer title */
 .my-title {
     color: var(--title-color);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.text-bg-primary {
+    background-color: var(--title-color) !important;
+}
+
+.projects {
+    background-color: var(--main-blue);
+}
+.projects:hover {
+    border: 2px solid white;
+}
+
+.btn {
+    background-color: var(--btn-color);
+    color: var(--main-blue);
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: var(--main-blue);
 }
 
 @media screen and (min-width: 768px) {

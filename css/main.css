@@ -1,5 +1,11 @@
-nav {
-    background-color: #1D2E47C4;
+:root {
+    --title-color: #ED8853;
+    --main-blue: #1D2E47;
+    --bg-blue: #424A56;
+}
+
+button span {
+    background-color: var(--main-blue);
 }
 
 /* current page is underlined in nav */
@@ -17,6 +23,20 @@ header {
     background-color: rgba(0, 0, 0, .75);
 }
 
+/* web developer / designer title */
 .my-title {
-    color: #ED8853;
+    color: var(--title-color);
+}
+
+@media screen and (min-width: 768px) {
+    /* darker nav bg than desktop */
+    nav {
+        background-color: #090D15D9;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    nav {
+        background-color: #1D2E47C4;
+    }
 }

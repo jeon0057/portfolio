@@ -6,6 +6,8 @@
     --btn-color: #ED8853;
     --rounded-corners: 10px;
     --dark-bg: #0A1019;
+    --nav-light-blue: #1D2E47C4;
+    --nav-dark-blue: #090D15D9;
 }
 
 body {
@@ -13,7 +15,7 @@ body {
 }
 
 nav {
-    background-color: #090D15D9;
+    background-color: var(--nav-dark-blue);
 }
 
 /* current page is underlined in nav */
@@ -107,10 +109,19 @@ footer {
     padding-left: 0;
 }
 
+/* style social icons */
+footer i {
+    font-size: 2.5rem;
+}
+
+.nav-contact {
+    background-color: var(--nav-light-blue);
+}
+
 @media screen and (min-width: 768px) {
     /* darker nav bg than desktop */
     nav {
-        background-color: #090D15D9;
+        background-color: var(--nav-dark-blue);
     }
 }
 

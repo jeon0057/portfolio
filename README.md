@@ -11,3 +11,4 @@ Overall, I have learned a new way to approach web development and have grown sig
 - Icons from: [fontawesome](https://fontawesome.com/)
 - Styling and animations from: [bootstrap](https://getbootstrap.com/)
 - Button animations from: [hover.css](https://ianlunn.github.io/Hover/)
+- Fonts from: [googlefonts](https://fonts.google.com/)

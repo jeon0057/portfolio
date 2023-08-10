@@ -12,12 +12,12 @@ body {
     background-color: var(--bg-blue);
 }
 
-button span {
-    background-color: var(--main-blue);
+nav {
+    background-color: #090D15D9;
 }
 
 /* current page is underlined in nav */
-.active {
+nav .active {
     border-bottom: 2px solid;
 }
 

@@ -5,6 +5,7 @@
     --bg-blue: #424A56;
     --btn-color: #ED8853;
     --rounded-corners: 10px;
+    --dark-bg: #0A1019;
 }
 
 body {
@@ -90,6 +91,20 @@ img {
 .design-skills {
     border: 1px solid var(--btn-color);
     border-radius: var(--rounded-corners);
+}
+
+
+/* Styles footer */
+footer {
+    background-color: var(--dark-bg);
+}
+
+/* .footer-nav a {
+    text-decoration: none;
+} */
+
+.footer-info {
+    padding-left: 0;
 }
 
 @media screen and (min-width: 768px) {

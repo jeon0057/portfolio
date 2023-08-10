@@ -2,6 +2,21 @@ nav {
     background-color: #1D2E47C4;
 }
 
+/* current page is underlined in nav */
 .active {
     border-bottom: 2px solid;
+}
+
+header {
+    background-image: url(../images/banner-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-bg {
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.my-title {
+    color: #ED8853;
 }

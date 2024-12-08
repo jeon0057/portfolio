@@ -60,6 +60,7 @@ img {
 
 .projects {
     background-color: var(--main-blue);
+    margin: 20px 10px;
 }
 .projects:hover {
     border: 2px solid white;
@@ -160,3 +161,4 @@ footer i {
         background-color: #1D2E47C4;
     }
 }
+

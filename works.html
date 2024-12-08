@@ -47,10 +47,10 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link active" aria-current="true">Home</a>
+                        <a href="index.html" class="nav-link" aria-current="true">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="works.html" class="nav-link">Works</a>
+                        <a href="works.html" class="nav-link active">Works</a>
                     </li>
                     <li class="nav-item">
                         <a href="info.html" class="nav-link">Info</a>
@@ -65,14 +65,14 @@
             <div class="container">
                 <p class="my-title pt-5">Graphic & Web Designer</p>
                 <h1><a href="index.html" class="display-5 text-decoration-none text-light fw-bold">Hayoung Jeong</a></h1>
-                <p class="lead">Hello! I am an Interactive Media Design student who enjoys designing/developing graphics and websites.</p>
+                <p class="lead">Hello! I am an Interactive Media Design student who enjoys designing/developing websites.</p>
             </div>
         </div>
     </header>
     <main>
         <section id="projects" class="p-5">
             <div class="container ft-projects">
-                <h2 class="h2 text-light">Featured Projects</h2>
+                <h2 class="h2 text-light">All My Projects</h2>
                 <!-- featured project cards -->
                 <div class="row gy-4">
                     <!-- architecture graphic card -->
@@ -139,42 +139,32 @@
                     </a>
 
                 </div>
-            </div>
-                <a href="works.html" class="btn btn-primary hvr-box-shadow-outset m-3" role="button" aria-label="go to projects page">See More<i class="fa-solid fa-caret-right"></i></a>
-        </section>
-        <!-- skills section -->
-        <section id="skills" itemscope itemtype="https://schema.org/Person" class="p-5 mb-5">
-            <h2 class="h2 text-light text-center mb-3">Skills</h2>
-            <div class="container skills-columns">
-                <div class="row">
-                    <!-- list of web dev skills in a column -->
-                    <section class="col-6 text-center web-skills py-5">
-                        <h3 class="text-light">Web Development</h3>
-                        <ul class="skills-list fw-semibold lh-lg">
-                            <li itemprop="knowsAbout">HTML</li>
-                            <li itemprop="knowsAbout">CSS</li>
-                            <li itemprop="knowsAbout">Bootstrap</li>
-                            <li itemprop="knowsAbout">Wordpress</li>
-                            <li itemprop="knowsAbout">Drupal</li>
-                        </ul>
-                    </section>
-                    <!-- list of design skills vertically in a column -->
-                    <section class="col-6 text-center design-skills py-5">
-                        <h3 class="text-light">Design</h3>
-                        <ul class="skills-list fw-semibold orange-text lh-lg">
-                            <li itemprop="knowsAbout">InDesign</li>
-                            <li itemprop="knowsAbout">Illustrator</li>
-                            <li itemprop="knowsAbout">Photoshop</li>
-                            <li itemprop="knowsAbout">Lightroom Classic</li>
-                            <li itemprop="knowsAbout">Adobe XD</li>
-                            <li itemprop="knowsAbout">Premiere Pro</li>
-                        </ul>
-                    </section>
+                <div class="row gy-4">
+                    <!-- avatar icon card -->
+                    <a class="projects card col-sm-11 col-md-6 text-decoration-none text-light mx-auto col-lg-4" href="#" data-bs-toggle="modal" 
+                    data-bs-target="#avatarModal" 
+                    aria-label="open project modal">
+                        <picture>
+                            <source media="(min-width:768px)" srcset="images/avatar-lg.png">
+                            <source media="(min-width:576px)" srcset="images/avatar-md.png">
+                            <source media="(min-width:100px)" srcset="images/avatar-sm.png">
+                            <img src="images/avatar.png" alt="an avatar icon of a giraffe listening to music in a subway" class="card-img" aria-labelledby="closer">
+                        </picture>
+                        <!-- projects description -->
+                        <div class="card-body">
+                            <h3 class="card-title h3" id="closer">Avatar Icon set for Apple</h3>
+                            <p class="card-text">A set of avatar icons in all three Apple dimensions (iPhone, iPad, iTunes). Made with Adobe Illustrator.</p>
+
+                            <!-- skills used badges -->
+                            <span class="badge rounded-pill text-bg-primary">Adobe Illustrator</span>
+                        </div>
+                    </a>
+
                 </div>
+
             </div>
-            <a href="info.html" class="btn btn-primary hvr-box-shadow-outset m-3" role="button" aria-label="go to contact form on info page">Contact Me<i class="fa-solid fa-caret-right"></i></a>
         </section>
-                <!-- Modal for Bukka App -->
+        <!-- Modal for Bukka App -->
 <div class="modal fade" id="bukkaModal" tabindex="-1" aria-labelledby="bukkaModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content text-light bg-dark">
@@ -183,7 +173,6 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body text-center">
-
                 <img src="images/bukka-lg.png" alt="Bukka Branding Image" class="img-fluid mb-3">
                 <p>Branding and web design for a fictional company. Includes a branding guide, wireframes, an interactive prototype made with Adobe XD, and a prototype made with HTML & CSS.</p>
             </div>
@@ -207,22 +196,6 @@
     </div>
 </div>
 
-<!-- Modal for Architecutral Model -->
-<div class="modal fade" id="shadeModal" tabindex="-1" aria-labelledby="avatarModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content text-light bg-dark">
-            <div class="modal-header border-0">
-                <h5 class="modal-title" id="avatarModalLabel">Avatar Icon set for Apple</h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body text-center">
-                <img src="images/The Shade (picks).jpg" alt="Architectural model and it's shadow at different times of the day." class="img-fluid mb-3">
-                <p>Graphic demonstrating how light and shadow interacts with architecture.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Modal for Avatar Icon -->
 <div class="modal fade" id="avatarModal" tabindex="-1" aria-labelledby="avatarModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
@@ -239,6 +212,21 @@
     </div>
 </div>
 
+<!-- Modal for Architecutral Model -->
+<div class="modal fade" id="shadeModal" tabindex="-1" aria-labelledby="avatarModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content text-light bg-dark">
+            <div class="modal-header border-0">
+                <h5 class="modal-title" id="avatarModalLabel">Avatar Icon set for Apple</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="images/The Shade (picks).jpg" alt="Architectural model and it's shadow at different times of the day." class="img-fluid mb-3">
+                <p>Graphic demonstrating how light and shadow interacts with architecture.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
     </main>
     <!-- footer section: nav menu, contact info, social links -->
